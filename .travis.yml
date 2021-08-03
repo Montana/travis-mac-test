@@ -14,4 +14,3 @@ rvm:
 
 script:
   - rvm version
-  - rvm implode # implode RVM versions after successful build 
