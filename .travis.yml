@@ -1,0 +1,17 @@
+os: osx
+osx_image: xcodervm
+install: true
+script: true
+rvm:
+- 2.6.0
+- 2.6.1
+- 2.6.2
+- 2.6.3
+- 2.6.4
+- 2.7.0
+- 2.7.1
+- ruby-head
+
+script:
+  - rvm version
+  - rvm implode # implode RVM versions after successful build 
